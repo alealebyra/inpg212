@@ -1,0 +1,19 @@
+#include <iostream.h>
+#include <fstream.h>
+#include <conio.h>
+
+main()
+
+{
+ifstream plik;
+char string[255];
+cout<<"Podaj sciezke i nazwe pliku do odczytania : ";
+char nazwa[100];
+cin>>nazwa;
+plik.open(nazwa);
+plik>>string;
+plik.close();
+cout<<"Odczytana wartosc : ";
+cout<<string;
+getch();
+}

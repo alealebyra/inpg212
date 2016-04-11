@@ -1,0 +1,16 @@
+# include <iostream.h>
+
+long silnia(int liczba)
+{
+long sil=1;
+for (int i=1;i<=liczba;i++)sil*=i;
+return sil;
+}
+
+main()
+{
+cout<<"Podaj Liczbe  : ";
+int liczba;
+cin>>liczba;
+cout<<"Silnia z liczby "<<liczba<<" wynosi "<<silnia(liczba);
+}
