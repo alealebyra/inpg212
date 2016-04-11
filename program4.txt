@@ -1,11 +1,7 @@
 # include <iostream.h>
 # include <stdio.h>
 # include <math.h>
-
-double modd(double l1, double l2)
-{
- double il;
- il=floor(l1/l2);
+sdASDasdDGSWRAEWR
  return l1-(il*l2);
 }
 
